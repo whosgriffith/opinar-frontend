@@ -1,0 +1,73 @@
+.copy {
+    height: 100%;
+    width: 100%;
+
+	display: flex;
+	flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    /*--------------- VOTE METER ---------------*/
+    &__stats {
+        display: flex;
+        padding-top: 4rem;
+        justify-content: space-evenly;
+        width: 100%;
+        &-personal {
+            padding-right: 4rem;
+        }
+        &-count {
+            color: $color-primary;
+            font-weight: 900;
+            font-size: 5rem;
+        }
+    }
+
+    /*--------------- TEXT/COPY TEXT ---------------*/
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+
+        &--top {
+            width: 100%;
+
+            padding: 3rem 0;
+
+            background-color: $color-white;
+            box-shadow: 
+            inset 0px 11px 8px -10px #CCC,
+            inset 0px -11px 8px -10px #CCC; 
+
+        }
+
+        &--CTA {
+            display: flex;
+            flex: 0 0 40%;
+            width: 80%;
+            margin-bottom: 10rem;
+        }
+    }
+    /*--------------- BUTTONS ---------------*/
+    &__button {
+        width: 60%;
+        margin: auto;
+        position: fixed;
+        bottom: 3.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*--------------- ICONS ---------------*/
+    &__icon {
+        height: 7.5rem;
+        margin: 1.9rem 0 1.4rem;
+    }
+
+}

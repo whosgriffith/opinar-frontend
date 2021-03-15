@@ -1,0 +1,14 @@
+h1 {
+  color: orangered;
+  text-decoration: underline; }
+
+h2 {
+  color: palegreen;
+  text-shadow: rebeccapurple; }
+
+.box {
+  background-color: rebeccapurple;
+  height: 60px;
+  width: 120px; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNvbmNhdC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxnQkFBZ0I7RUFDaEIsMEJBQTBCLEVBQUU7O0FBRTlCO0VBQ0UsZ0JBQWdCO0VBQ2hCLDBCQUEwQixFQUFFOztBQUU5QjtFQUNFLCtCQUErQjtFQUMvQixZQUFZO0VBQ1osWUFBWSxFQUFFIiwiZmlsZSI6InN0eWxlLnByZWZpeC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMSB7XG4gIGNvbG9yOiBvcmFuZ2VyZWQ7XG4gIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyB9XG5cbmgyIHtcbiAgY29sb3I6IHBhbGVncmVlbjtcbiAgdGV4dC1zaGFkb3c6IHJlYmVjY2FwdXJwbGU7IH1cblxuLmJveCB7XG4gIGJhY2tncm91bmQtY29sb3I6IHJlYmVjY2FwdXJwbGU7XG4gIGhlaWdodDogNjBweDtcbiAgd2lkdGg6IDEyMHB4OyB9XG4iXX0= */

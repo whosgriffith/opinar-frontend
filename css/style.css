@@ -1,0 +1,119 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+::selection {
+  background-color: #4169E1;
+  color: #F6F6FD; }
+
+/*---- FONT WEIGHTS -----/
+Barlow: 600 - 900
+Lato: 400 - 700 - 900
+/-----------------------*/
+body {
+  font-family: 'Lato', sans-serif; }
+
+.header {
+  font-family: 'Barlow', sans-serif;
+  color: #4169E1;
+  font-size: 3rem; }
+
+.header-primary {
+  font-size: 3rem;
+  font-weight: 900; }
+
+.button {
+  font-family: 'Barlow', sans-serif;
+  color: #DEDEDF;
+  font-size: 2.6rem;
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center; }
+
+.underline {
+  border-bottom: 3px solid #4169E1; }
+
+.white-gradient {
+  background: linear-gradient(#FFFFFF, #DEDEDF); }
+
+.copy__button {
+  display: inline-block;
+  background-color: #4169E1;
+  border-radius: 10px;
+  padding: 3px 15px 5px;
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22); }
+
+.header {
+  display: inline-block;
+  height: 7vh;
+  width: 100%;
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem; }
+  .header__logo-box {
+    margin-left: 0.7rem; }
+    .header__logo-box--text {
+      font-weight: 900;
+      text-transform: uppercase; }
+    .header__logo-box--bar {
+      font-weight: 600; }
+
+.content {
+  height: 93vh; }
+
+.copy {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 0 auto;
+  text-align: center;
+  /*--------------- VOTE METER ---------------*/
+  /*--------------- TEXT/COPY TEXT ---------------*/
+  /*--------------- BUTTONS ---------------*/
+  /*--------------- ICONS ---------------*/ }
+  .copy__stats {
+    display: flex;
+    padding-top: 4rem;
+    justify-content: space-evenly;
+    width: 100%; }
+    .copy__stats-personal {
+      padding-right: 4rem; }
+    .copy__stats-count {
+      color: #4169E1;
+      font-weight: 900;
+      font-size: 5rem; }
+  .copy__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; }
+    .copy__item--top {
+      width: 100%;
+      padding: 3rem 0;
+      background-color: #F6F6FD;
+      box-shadow: inset 0px 11px 8px -10px #CCC, inset 0px -11px 8px -10px #CCC; }
+    .copy__item--CTA {
+      display: flex;
+      flex: 0 0 40%;
+      width: 80%;
+      margin-bottom: 10rem; }
+  .copy__button {
+    width: 60%;
+    margin: auto;
+    position: fixed;
+    bottom: 3.5rem;
+    left: 50%;
+    transform: translateX(-50%); }
+  .copy__icon {
+    height: 7.5rem;
+    margin: 1.9rem 0 1.4rem; }

@@ -1,0 +1,22 @@
+.header {
+    display: inline-block;
+
+    height: 7vh;
+    width: 100%;
+    //border-bottom: 2px solid $color-light-gray; 
+
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+
+    &__logo-box {
+        margin-left: 0.7rem;
+        &--text {   
+            font-weight: 900;   
+            text-transform: uppercase;   
+        }
+    
+        &--bar {
+            font-weight: 600;
+        }
+    }
+}

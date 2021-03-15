@@ -1,0 +1,27 @@
+/*---- FONT WEIGHTS -----/
+Barlow: 600 - 900
+Lato: 400 - 700 - 900
+/-----------------------*/
+
+body {  
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    font-family: 'Barlow', sans-serif;
+    color: $color-primary;
+    font-size: $big-font;
+}
+.header-primary {
+    font-size: $big-font;
+    font-weight: 900;
+}
+
+.button {
+    font-family: 'Barlow', sans-serif;
+    color: $color-gray;
+    font-size: 2.6rem;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+}

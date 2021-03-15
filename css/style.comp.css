@@ -1,0 +1,12 @@
+h1 {
+  color: orangered;
+  text-decoration: underline; }
+
+h2 {
+  color: palegreen;
+  text-shadow: rebeccapurple; }
+
+.box {
+  background-color: rebeccapurple;
+  height: 60px;
+  width: 120px; }
