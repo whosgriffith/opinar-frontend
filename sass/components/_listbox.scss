@@ -1,0 +1,40 @@
+.box-list__box {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 90%;
+
+    background-color: $color-white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 4rem 0;
+
+    &-title {
+        font-size: 2.25rem;
+    }
+
+    &-description {
+        font-size: 1.5rem;
+        padding-top: 5px;
+    }
+
+    &-action{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 4rem;
+        &-logo {
+            width: 3rem;
+            -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .22));
+            filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .2));
+        }
+        &-button {
+            height: 3.6rem;
+            width: 12rem;
+            font-size: 2rem;
+            text-align: center;        
+        }
+    }
+}

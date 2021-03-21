@@ -5,6 +5,7 @@ Lato: 400 - 700 - 900
 
 body {  
     font-family: 'Lato', sans-serif;
+    color: $color-light-black;
 }
 
 .header {
@@ -15,6 +16,7 @@ body {
 .header-primary {
     font-size: $big-font;
     font-weight: 900;
+    
 }
 
 .button {

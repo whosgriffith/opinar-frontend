@@ -18,7 +18,8 @@ Barlow: 600 - 900
 Lato: 400 - 700 - 900
 /-----------------------*/
 body {
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  color: #515151; }
 
 .header {
   font-family: 'Barlow', sans-serif;
@@ -41,14 +42,44 @@ body {
   border-bottom: 3px solid #4169E1; }
 
 .white-gradient {
-  background: linear-gradient(#FFFFFF, #DEDEDF); }
+  background: linear-gradient(#FFFFFF, #F6F6FD); }
 
-.copy__button {
+.button {
   display: inline-block;
   background-color: #4169E1;
   border-radius: 10px;
   padding: 3px 15px 5px;
   box-shadow: 0 9px 20px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22); }
+
+.box-list__box {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 90%;
+  background-color: #F6F6FD;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 4rem 0; }
+  .box-list__box-title {
+    font-size: 2.25rem; }
+  .box-list__box-description {
+    font-size: 1.5rem;
+    padding-top: 5px; }
+  .box-list__box-action {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem; }
+    .box-list__box-action-logo {
+      width: 3rem;
+      -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.22));
+      filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.2)); }
+    .box-list__box-action-button {
+      height: 3.6rem;
+      width: 12rem;
+      font-size: 2rem;
+      text-align: center; }
 
 .header {
   display: inline-block;
@@ -117,3 +148,13 @@ body {
   .copy__icon {
     height: 7.5rem;
     margin: 1.9rem 0 1.4rem; }
+
+.box-list {
+  display: flex;
+  flex-direction: column; }
+
+.title-list {
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: 2rem;
+  transform: translateX(-50%); }
