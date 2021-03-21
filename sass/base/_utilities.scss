@@ -5,3 +5,10 @@
 .white-gradient {
     background: linear-gradient($color-full-white, $color-white);
 }
+
+.background-inset {
+    background-color: $color-white;
+    box-shadow: 
+    inset 0px 11px 8px -10px #CCC,
+    inset 0px -11px 8px -10px #CCC; 
+}

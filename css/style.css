@@ -44,6 +44,10 @@ body {
 .white-gradient {
   background: linear-gradient(#FFFFFF, #F6F6FD); }
 
+.background-inset {
+  background-color: #F6F6FD;
+  box-shadow: inset 0px 11px 8px -10px #CCC, inset 0px -11px 8px -10px #CCC; }
+
 .button {
   display: inline-block;
   background-color: #4169E1;
@@ -74,7 +78,7 @@ body {
     .box-list__box-action-logo {
       width: 3rem;
       -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.22));
-      filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.2)); }
+      filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.22)); }
     .box-list__box-action-button {
       height: 3.6rem;
       width: 12rem;
@@ -96,7 +100,7 @@ body {
       font-weight: 600; }
 
 .content {
-  height: 93vh; }
+  height: 100%; }
 
 .copy {
   height: 100%;
@@ -130,9 +134,7 @@ body {
     margin: 0 auto; }
     .copy__item--top {
       width: 100%;
-      padding: 3rem 0;
-      background-color: #F6F6FD;
-      box-shadow: inset 0px 11px 8px -10px #CCC, inset 0px -11px 8px -10px #CCC; }
+      padding: 3rem 0; }
     .copy__item--CTA {
       display: flex;
       flex: 0 0 40%;
