@@ -1,0 +1,77 @@
+.wrapper-vote {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.vote-page__title {
+    margin-top: 3.5rem;
+}
+
+.vote-page__vote {
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+
+    &-icon {
+        height: 6rem;
+        -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .22));
+        filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .22));
+        &--like {
+            margin-right: 8rem;
+            margin-top: 2.5rem;
+        }
+
+        &:active{
+            -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .1));
+            filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .1));
+        }
+
+    }
+
+    &-value {
+        display: flex;
+        justify-content: space-around;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    &-status{
+        height: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    &-status--like{
+        background-color: $color-like;
+        width: 50%;
+    }
+
+    &-status--dislike{
+        background-color: $color-dislike;
+        width: 100%;
+
+    }
+
+}
+
+.vote-page__description {
+    font-size: 1.5rem;
+    &-more {
+        color: $color-primary;
+    }
+
+    &-text {
+        padding-top: 4rem;
+        width: 60%;
+        margin:0 auto;     
+    }
+}
+
+.vote-page__fixed-buttons {
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+}

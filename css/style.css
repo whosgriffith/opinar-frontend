@@ -1,3 +1,25 @@
+.anim-wiggle {
+  animation: wiggle 4s 2s infinite; }
+
+@keyframes wiggle {
+  5%,
+  50% {
+    transform: scale(1); }
+  10% {
+    transform: scale(0.9); }
+  15% {
+    transform: scale(1.15); }
+  20% {
+    transform: scale(1.15) rotate(-5deg); }
+  25% {
+    transform: scale(1.15) rotate(5deg); }
+  30% {
+    transform: scale(1.15) rotate(-3deg); }
+  35% {
+    transform: scale(1.15) rotate(2deg); }
+  40% {
+    transform: scale(1.15) rotate(0); } }
+
 *,
 *::after,
 *::before {
@@ -50,10 +72,10 @@ body {
 
 .button {
   display: inline-block;
-  background-color: #4169E1;
   border-radius: 10px;
   padding: 3px 15px 5px;
-  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22); }
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  background-color: #4169E1; }
 
 .box-list__box {
   display: flex;
@@ -161,3 +183,57 @@ body {
   margin-left: 50%;
   margin-top: 2rem;
   transform: translateX(-50%); }
+
+.wrapper-vote {
+  height: 100%;
+  width: 100%;
+  text-align: center; }
+
+.vote-page__title {
+  margin-top: 3.5rem; }
+
+.vote-page__vote {
+  position: relative;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 4rem; }
+  .vote-page__vote-icon {
+    height: 6rem;
+    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.22));
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.22)); }
+    .vote-page__vote-icon--like {
+      margin-right: 8rem;
+      margin-top: 2.5rem; }
+    .vote-page__vote-icon:active {
+      -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.1));
+      filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.1)); }
+  .vote-page__vote-value {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 5px; }
+  .vote-page__vote-status {
+    height: 2.5rem;
+    margin-bottom: 3rem; }
+  .vote-page__vote-status--like {
+    background-color: #5cb85c;
+    width: 50%; }
+  .vote-page__vote-status--dislike {
+    background-color: #d9534f;
+    width: 100%; }
+
+.vote-page__description {
+  font-size: 1.5rem; }
+  .vote-page__description-more {
+    color: #4169E1; }
+  .vote-page__description-text {
+    padding-top: 4rem;
+    width: 60%;
+    margin: 0 auto; }
+
+.vote-page__fixed-buttons {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: space-around; }
