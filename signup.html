@@ -10,9 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-
-    <title>Opin|ar - Signup</title>
+    <title>Opin|ar - Polls</title>
 </head>
 
 <body class="white-gradient">
@@ -24,20 +22,29 @@
     </header>
     
     <div class="content">
-        
-        <h1 class="title-signup header-primary">Create account</h1>
 
-        <div class="box-signup">
-            <form method="POST">
-            <label for="email">Email</label></br>
-            <input id="email" type="email" name="email"></br>
+              <h1 class="title-signup header-primary">Create account</h1>
 
-            <label for="password">Password</label></br>
-            <input id="password" type="password" name="password"></br>
+        <div class="signup-group">
+            <form class="signup-group__form" method="POST">
 
-            <label for="password-confirmation">Password confirmation</label></br>
-            <input id="password-confirmation" type="password" name="password-confirmation"></br>
-            <a href="signup.html" class="button">Create account</a>
+            <div class="signup-group__input-field">
+            <label class="signup-group__label" for="email">Email</label></br>
+            <input class="signup-group__input" id="email" type="email" name="email"></br>
+            </div>
+            
+            <div class="signup-group__input-field">
+            <label class="signup-group__label" for="password">Password</label></br>
+            <input class="signup-group__input" id="password" type="password" name="password"></br>
+            </div>
+
+            <div class="signup-group__input-field">
+            <label class="signup-group__label" for="password-confirmation">Password confirmation</label></br>
+            <input class="signup-group__input" id="password-confirmation" type="password" name="password-confirmation"></br>
+            </div>
+
+            <div class="signup-group__button-div"><input class="button submit-button signup-group__button" type="submit" value="Create account"></div>
+    
             </form>
         </div>
 

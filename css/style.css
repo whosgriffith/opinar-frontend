@@ -75,10 +75,16 @@ body {
 
 .button {
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 7px;
   padding: 10px 5px;
   box-shadow: 0 9px 20px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
   background-color: #4169E1; }
+
+.submit-button {
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
 
 .header {
   display: inline-block;
@@ -96,7 +102,7 @@ body {
 
 .content {
   min-height: 93vh;
-  height: 100%; }
+  overflow: hidden; }
 
 .copy {
   height: 100%;
@@ -147,9 +153,26 @@ body {
     height: 10rem;
     margin: 1.9rem 0 1.4rem; }
 
-.box-signup {
+.signup-group {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
+  .signup-group__input-field {
+    margin-top: 4rem; }
+  .signup-group__label {
+    font-size: 1.5rem; }
+  .signup-group__input {
+    margin-top: 0.5rem;
+    background-color: transparent;
+    font-size: 2.1rem;
+    border: 0;
+    border-bottom: 2px solid #4169E1; }
+  .signup-group__button {
+    padding: .7rem 1.4rem; }
+    .signup-group__button-div {
+      margin-top: 5rem;
+      width: 100%;
+      text-align: center; }
 
 .title-signup {
   display: inline-block;
