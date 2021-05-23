@@ -1,11 +1,13 @@
-.box-list {
+.box-signup {
     display: flex;
     flex-direction: column;
 }
 
-.title-list {
+.title-signup {
     display: inline-block;
     margin-left: 50%;
     margin-top: 2rem;
     transform: translateX(-50%);
+    width: 100vw;
+    text-align: center;
 }
