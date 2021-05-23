@@ -35,6 +35,10 @@ html {
   background-color: #4169E1;
   color: #F6F6FD; }
 
+a {
+  color: inherit;
+  text-decoration: inherit; }
+
 /*---- FONT WEIGHTS -----/
 Barlow: 600 - 900
 Lato: 400 - 700 - 900
@@ -170,8 +174,8 @@ body {
     bottom: 3.5rem;
     left: 50%;
     transform: translateX(-50%); }
-  .copy__icon {
-    height: 7.5rem;
+  .copy__illustration {
+    height: 10rem;
     margin: 1.9rem 0 1.4rem; }
 
 .box-list {

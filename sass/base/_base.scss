@@ -17,3 +17,8 @@ html {
     background-color: $color-primary;
     color: $color-white;
 }
+
+a {
+    color: inherit; 
+    text-decoration: inherit;
+}
