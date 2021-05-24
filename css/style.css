@@ -86,6 +86,12 @@ body {
   -moz-box-shadow: none;
   box-shadow: none; }
 
+.link-bottom-border {
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  color: #4169E1;
+  border-bottom: 3px solid #4169E1; }
+
 .header {
   display: inline-block;
   height: 7vh;
@@ -182,6 +188,25 @@ body {
   width: 100vw;
   text-align: center; }
 
+.signup-login-group {
+  text-align: center; }
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem; }
+  .separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1.4px solid #DEDEDF; }
+  .separator:not(:empty)::before {
+    margin-right: .25em; }
+  .separator:not(:empty)::after {
+    margin-left: .25em; }
+
 .wrapper-vote {
   height: 100%;
   width: 100%;
@@ -235,8 +260,3 @@ body {
   margin-top: 6rem;
   display: flex;
   justify-content: space-around; }
-  .vote-page__fixed-buttons-button {
-    font-size: 2rem;
-    padding: 0.5rem 2rem;
-    color: #4169E1;
-    border-bottom: 3px solid #4169E1; }
