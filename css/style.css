@@ -190,6 +190,8 @@ body {
 
 .signup-login-group {
   text-align: center; }
+  .signup-login-group--register {
+    margin-bottom: 3rem; }
 
 .separator {
   display: flex;
