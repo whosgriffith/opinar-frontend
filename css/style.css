@@ -209,6 +209,30 @@ body {
     height: 10rem;
     margin: 1.9rem 0 1.4rem; }
 
+.profile-picture {
+  height: 14rem;
+  margin-top: 2rem; }
+  .profile-picture__img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    object-fit: cover;
+    object-position: center right; }
+
+.account-detail {
+  margin-bottom: 2rem; }
+  .account-detail__org {
+    font-size: 2rem; }
+
+.profile-menu {
+  margin-top: -2rem; }
+  .profile-menu__button {
+    height: 4.5rem;
+    width: 20rem; }
+
 .wrapper-vote {
   height: 100%;
   width: 100%;
