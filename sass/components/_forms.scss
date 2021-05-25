@@ -1,4 +1,4 @@
-.signup-group {
+.forms-group {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +29,7 @@
     }
 }
 
-.title-signup {
+.title-form {
     display: inline-block;
     margin-left: 50%;
     margin-top: 2rem;
@@ -38,32 +38,9 @@
     text-align: center;
 }
 
-.signup-login-group {
+.login-register-group {
     text-align: center;
     &--register {
         margin-bottom: 3rem;
-    }
-}
-
-.separator {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-  
-    &::before,&::after {
-        content: '';
-        flex: 1;
-        border-bottom: 1.4px solid $color-gray;
-    }
-  
-    &:not(:empty)::before {
-        margin-right: .25em;
-    }
-  
-    &:not(:empty)::after {
-        margin-left: .25em;
     }
 }
