@@ -73,6 +73,12 @@ body {
   background-color: #F6F6FD;
   box-shadow: inset 0px 11px 8px -10px #CCC, inset 0px -11px 8px -10px #CCC; }
 
+.text-center {
+  display: inline-block;
+  margin-top: 2rem;
+  width: 100vw;
+  text-align: center; }
+
 .button {
   display: inline-block;
   border-radius: 7px;
@@ -112,14 +118,6 @@ body {
       margin-top: 5rem;
       width: 100%;
       text-align: center; }
-
-.title-form {
-  display: inline-block;
-  margin-left: 50%;
-  margin-top: 2rem;
-  transform: translateX(-50%);
-  width: 100vw;
-  text-align: center; }
 
 .login-register-group {
   text-align: center; }
