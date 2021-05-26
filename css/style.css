@@ -124,6 +124,31 @@ body {
   .login-register-group--register {
     margin-bottom: 3rem; }
 
+.card-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem; }
+
+.card {
+  width: 25rem;
+  min-height: 18rem;
+  margin-bottom: 5rem;
+  border-radius: 10px;
+  box-shadow: #E6E6FA 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  text-align: center;
+  background-color: #E6E6FA; }
+  .card__header {
+    margin-bottom: 2rem; }
+  .card__desc {
+    font-size: 1.2rem;
+    font-weight: 600; }
+  .card__desc--comments {
+    margin-bottom: 1.3rem; }
+
+.back-to-profile {
+  text-align: center; }
+
 .separator {
   display: flex;
   align-items: center;

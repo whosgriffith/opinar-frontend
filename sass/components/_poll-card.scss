@@ -1,0 +1,33 @@
+.card-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.card {
+    width: 25rem;
+    min-height: 18rem;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+    box-shadow: $color-light-gray 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    text-align: center;
+    background-color: $color-light-gray;
+
+    &__header {
+        margin-bottom: 2rem;
+    }
+
+    &__desc {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    &__desc--comments {
+        margin-bottom: 1.3rem;
+    }
+}
+
+.back-to-profile {
+    text-align: center;
+}
