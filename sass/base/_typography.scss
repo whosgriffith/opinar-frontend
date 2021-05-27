@@ -12,6 +12,13 @@ body {
     font-family: 'Barlow', sans-serif;
     color: $color-primary;
     font-size: $big-font;
+    text-align: justify;
+
+    &__user {
+        font-family: 'Lato', sans-serif;
+        color: $color-light-black;
+        font-size: 2rem;
+    }
 }
 .header-primary {
     font-size: $big-font;

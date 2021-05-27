@@ -10,6 +10,7 @@
 
     &__logo-box {
         margin-left: 0.7rem;
+
         &--text {   
             font-weight: 900;   
             text-transform: uppercase;   
@@ -17,6 +18,15 @@
     
         &--bar {
             font-weight: 600;
+        }
+    }
+
+    &__user {
+        float: right;
+        margin: 8px 8px 0 0;
+        &-icon {
+            font-size: 1.8rem;
+            margin-right: 3px;
         }
     }
 }
