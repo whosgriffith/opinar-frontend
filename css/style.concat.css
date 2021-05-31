@@ -39,6 +39,9 @@ a {
   color: inherit;
   text-decoration: inherit; }
 
+.input-field {
+  font-size: 1.1rem; }
+
 /*---- FONT WEIGHTS -----/
 Barlow: 600 - 900
 Lato: 400 - 700 - 900
@@ -50,7 +53,12 @@ body {
 .header {
   font-family: 'Barlow', sans-serif;
   color: #4169E1;
-  font-size: 3rem; }
+  font-size: 3rem;
+  text-align: justify; }
+  .header__user {
+    font-family: 'Lato', sans-serif;
+    color: #515151;
+    font-size: 2rem; }
 
 .header-primary {
   font-size: 3rem;
@@ -184,6 +192,12 @@ body {
       text-transform: uppercase; }
     .header__logo-box--bar {
       font-weight: 600; }
+  .header__user {
+    float: right;
+    margin: 8px 8px 0 0; }
+    .header__user-icon {
+      font-size: 1.8rem;
+      margin-right: 3px; }
 
 .content {
   min-height: 93vh;
