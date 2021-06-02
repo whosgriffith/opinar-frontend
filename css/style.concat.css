@@ -71,6 +71,13 @@ body {
   text-decoration: none;
   text-align: center; }
 
+.vote-page__title-date {
+  font-size: 1.5rem;
+  margin: 8px; }
+
+.vote-page__title-votes {
+  font-size: 2rem; }
+
 .underline {
   border-bottom: 3px solid #4169E1; }
 
