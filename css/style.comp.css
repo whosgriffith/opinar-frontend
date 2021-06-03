@@ -113,6 +113,13 @@ body {
   color: #4169E1;
   border-bottom: 3px solid #4169E1; }
 
+.radio {
+  font-size: 2.2rem;
+  display: inline-block;
+  margin: 4rem 0; }
+  .radio__first {
+    margin-right: 4rem; }
+
 .forms-group {
   display: flex;
   flex-direction: column;
